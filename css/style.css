@@ -81,6 +81,7 @@ p {
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 /* Padding */
@@ -99,7 +100,7 @@ p {
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -126,23 +127,23 @@ p {
 }
 
 /* Showcase */
-.showcase {
+#showcase {
   background: url('../img/showcase.jpg') no-repeat center center/cover;
   height: 600px;
 }
 
-.showcase .showcase-content {
+#showcase .showcase-content {
   text-align: center;
   color: #fff;
   padding-top: 170px;
 }
 
-.showcase .showcase-content h1 {
+#showcase .showcase-content h1 {
   font-size: 60px;
   line-height: 1.2em;
 }
 
-.showcase .showcase-content p {
+#showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
 }
@@ -206,7 +207,7 @@ p {
 
 /* Testimonials  */
 #testimonials {
-  height: 600px;
+  height: 100%;
   background: url('../img/test-bg.jpg') no-repeat center center/cover;
   padding-top: 100px;
 }
